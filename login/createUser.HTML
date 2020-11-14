@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Log in</title>
+    
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <header>
+    <h1>
+      Find dit livs kærlighed nu!
+    </h1>
+  </header>
+
+  <form>
+    <div class="loginpage"> 
+    <div class= "form">
+
+      <div class="husk">
+        <label for="skrivnavn">Skriv dit navn her:</label>
+        <input id="skrivnavn" type="text" required>
+
+        <label for="firstname">Type in your firstname:</label>
+        <input id="firstname" type="text" required>
+
+        <label for="lastname">Type in your lastname:</label>
+        <input id="lastname" type="text" required>
+
+        <label for="username">Create an username:</label>
+        <input id="username" type="text" required>
+
+        <label for="password">Create a password:</label>
+        <input id="password" type="text" required>
+
+        <label for="birthday">Type in your birthday:</label>
+        <input id="birthday" type="date" required>
+
+        <label for="gender">State your gender:</label>
+        <input id="gender" type="text" required> 
+
+        <input type="submit" id="submituser" value="Submit" onclick= "validate()"/> 
+        
+    </div>
+
+    <p class="message">Already registeret? <a href="Login.HTML"> login</a></p>
+
+  </div>
+</div>
+</form>
+
+</header>
+<main>
+<p class="personal-greeting">
+    Er du klar til at møde din soulmate?
+</p>
+</main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script src= "../createUser.js"></script>
+</html> 
+
+
+
+
+      
